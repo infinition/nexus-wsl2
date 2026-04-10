@@ -2,6 +2,9 @@
 
 Lightweight system tray application for managing WSL distributions on Windows.
 
+<img width="1092" height="647" alt="image" src="https://github.com/user-attachments/assets/7c52d4df-1d7f-4447-bc7b-23a49d4dfd88" />
+
+
 ![Electron](https://img.shields.io/badge/Electron-33-47848F?logo=electron&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
