@@ -1,0 +1,53 @@
+{
+  "name": "wsl-nexus",
+  "version": "1.0.0",
+  "description": "WSL Distribution Manager with Glassmorphism UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Nephystos",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "lucide": "^1.8.0"
+  },
+  "build": {
+    "appId": "com.wslnexus.app",
+    "productName": "WSL Nexus",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css",
+      "icon.ico",
+      "icon.png",
+      "node_modules/lucide/dist/umd/lucide.min.js",
+      "node_modules/iconv-lite/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "icon.ico",
+      "signtoolOptions": {
+        "signingHashAlgorithms": []
+      },
+      "sign": null
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false
+    },
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

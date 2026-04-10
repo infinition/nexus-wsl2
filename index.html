@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'">
+    <title>WSL Nexus</title>
+    <!-- Lucide Icons (bundled locally) -->
+    <script src="./node_modules/lucide/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header>
+        <h1>WSL Nexus</h1>
+    </header>
+
+    <main>
+        <div id="distro-grid" class="distro-grid">
+            <!-- Cards will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <label class="switch">
+            <input type="checkbox" id="auto-launch-toggle">
+            <span class="slider"></span>
+        </label>
+        <span>Start with Windows</span>
+    </footer>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
