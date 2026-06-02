@@ -1,5 +1,7 @@
 # WSL Nexus
 
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white) [![Build](https://github.com/infinition/nexus-wsl2/actions/workflows/build.yml/badge.svg)](https://github.com/infinition/nexus-wsl2/actions/workflows/build.yml) [![Release](https://img.shields.io/github/v/release/infinition/nexus-wsl2?style=flat)](https://github.com/infinition/nexus-wsl2/releases) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/infinition)
+
 Lightweight system tray application for managing WSL distributions on Windows.
 
 <img width="1092" height="647" alt="image" src="https://github.com/user-attachments/assets/7c52d4df-1d7f-4447-bc7b-23a49d4dfd88" />
